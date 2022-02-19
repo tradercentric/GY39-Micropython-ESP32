@@ -12,7 +12,7 @@ GY-39 MCU Light Intensity Temperature Humidity Atmospheric Pressure, 4 in One In
     # GPIO_16  --  CT 
     # GPIO_17  --  DR 
 
-Complete Python code and sample output below:
+Working MicroPython code for ESP32 and output are shown below:
 
 ```python
 # Python version
