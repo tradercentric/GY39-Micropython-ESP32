@@ -1,7 +1,8 @@
 # GY39-Micropython-ESP32
 
-
 GY-39 MCU Light Intensity Temperature Humidity Atmospheric Pressure, 4 in One Integrated Sensor Module
+
+<img src="./hookup_diagram.jpg">
 
     # Micropython version
     # With My ESP32 board, UART0 and UART1 are not available
