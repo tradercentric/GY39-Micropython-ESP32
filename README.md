@@ -186,9 +186,10 @@ if __name__ == "__main__":
 
 Output:
 
+```
 lux = 7.2 lux
 temperature = 24.17 c
 pressure = 98234.57 pa
 humidity = 40.8 %
 elevation = 260 m
-
+```
