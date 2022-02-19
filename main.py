@@ -140,7 +140,7 @@ def read_weather(s) -> (int, int, int, int, int):
 
 if __name__ == "__main__":
 
-    # Python version for Windows
+    # Python version for Windows (need FTDI serial to USB dongle)
     #  ser = serial.Serial('COM4', 9600)
     #  ser.flushInput()
 
@@ -154,7 +154,8 @@ if __name__ == "__main__":
     # 3.3v     --  VCC
     # GPIO_16  --  CT 
     # GPIO_17  --  DR    
-    #
+    # GND      --  GND
+    
     ser = UART(2, 9600)
 
     (ll, tt, pp, hh, ee) = read_weather(ser)
