@@ -187,9 +187,17 @@ if __name__ == "__main__":
 Output:
 
 ```
+Trial #1
 lux = 7.2 lux
 temperature = 24.17 c
 pressure = 98234.57 pa
 humidity = 40.8 %
 elevation = 260 m
+
+Trial #2
+lux = 424.2 lux
+temperature = 23.7 c
+pressure = 98228.11 pa
+humidity = 40.13 %
+elevation = 261 m
 ```
