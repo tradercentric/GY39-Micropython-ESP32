@@ -26,6 +26,7 @@ GY-39 MCU Light Intensity Temperature Humidity Atmospheric Pressure, 4 in One In
     #
     # ESP Pin  --  GY39 Pin
     # ---------------------
+    # S0       --  GND
     # 3.3v     --  VCC
     # GPIO_22  --  CT 
     # GPIO_21  --  DR

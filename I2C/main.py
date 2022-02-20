@@ -1,8 +1,8 @@
-
 # Micropython version
 #
 # ESP Pin  --  GY39 Pin
 # ---------------------
+# S0       --  GND
 # 3.3v     --  VCC
 # GPIO_22  --  CT 
 # GPIO_21  --  DR
