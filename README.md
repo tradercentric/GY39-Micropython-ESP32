@@ -18,7 +18,7 @@ GY-39 MCU Light Intensity Temperature Humidity Atmospheric Pressure, 4 in One In
     # GPIO_17  --  DR
     # GND      --  GND
 
-1. Communication using I2C (S0 to GND)
+2. Communication using I2C (S0 to GND)
 
 <img src="./i2c_hookup_diagram.jpg">
 
