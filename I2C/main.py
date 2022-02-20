@@ -1,5 +1,15 @@
-from machine import Pin, SoftI2C
 
+# Micropython version
+#
+# ESP Pin  --  GY39 Pin
+# ---------------------
+# 3.3v     --  VCC
+# GPIO_22  --  CT 
+# GPIO_21  --  DR
+# GND      --  GND    
+
+from machine import Pin, SoftI2C
+    
 MCU_I2C_ADDR = 0X5b
 
 i2c = SoftI2C(scl=Pin(22), sda=Pin(21))
